@@ -6,7 +6,7 @@ using UnityEngine;
 public class ProximityEventHandler : MonoBehaviour
 {
     [SerializeField] private ProximityEvent action;
-    [SerializeField] private string tag;
+    [SerializeField] private new string tag;
     [SerializeField] private List<GameObject> additionalTargets;
 
     private void OnTriggerEnter(Collider hit)
